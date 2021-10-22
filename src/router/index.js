@@ -32,6 +32,16 @@ export default new Router({
       path: '/posts',
       name: 'ListPost',
       component: ListPost
+    },
+    {
+      path: '/add',
+      name: 'AddPost',
+      component: AddPost,
+    },
+    {
+      path: '/posts/:id',
+      name: 'Post',
+      component: Post
     }
   ]
 })
