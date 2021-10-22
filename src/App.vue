@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <v-btn to="/posts" text> Posts </v-btn>
+
+    <v-btn to="/add" text> Add </v-btn>
     <router-view />
   </div>
 </template>
